@@ -12,6 +12,7 @@
         body {
             background: #eee;
             margin: 20px 0;
+
         }
 
         article {
@@ -121,39 +122,6 @@
         .projects > ol > li h3 {
             display: inline-block;
         }</style>
-    <style>.skills {
-        }
-
-        #skills {
-
-            width: 500px;
-            height: 270px;
-        }
-
-        .skills > .wrapper {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .skills > .wrapper > :first-child {
-            margin-right: 24px;
-        }
-
-        .skills > .wrapper > #skills {
-        }
-
-        .skills > .wrapper > ul {
-            color: #666;
-        }
-
-        .skills > .wrapper strong {
-            color: #f60;
-        }
-
-        .skills > .wrapper > ul > li {
-            line-height: 1.2;
-            margin-bottom: 8px;
-        }</style>
     <style>.openSource {
         }
 
@@ -233,11 +201,6 @@
             .skills .wrapper {
                 flex-direction: column;
             }
-
-            #skills {
-                width: auto;
-            }
-
             .jobs header {
                 flex-direction: column;
             }
@@ -254,7 +217,7 @@
 <article>
     <section class="bio">
         <h1>熊静松</h1>
-        <img src="" alt="" width="100" height="100">
+        <img src="https://i.ibb.co/sRfBpwR/2020-10-27-8-35-22.png" alt="" width="100" height="100">
         <p>
             男 | 27岁 | 前端开发工程师 | 西安
         </p>
@@ -281,7 +244,7 @@
                 </p>
                 <p>
 
-                    目前提供<strong>Button</strong>/<strong>Grid</strong>/<strong>Input</strong>/<strong>Toast</strong>/<strong>Layout</strong>/<strong>Popover</strong>/<strong>Collapse</strong>等多个组件，后期还会更新vue3版本。
+                    目前提供<strong>Button</strong>/<strong>Grid</strong>/<strong>Input</strong>/<strong>Toast</strong>/<strong>Layout</strong>等常用组件，后期还会更新vue3版本。
 
                 </p>
 
@@ -334,10 +297,10 @@
             </span>
                 </header>
                 <p>
-                    这是一个在线版本小程序应用，使用wx原生框架完成。
+                    这是一个在线版本小程序应用，使用微信原生框架完成。
                 </p>
                 <p>
-                    由于发布上线需要相关资质，所以并未发布，这是当时加拿大的学长问我会不会做小程序，所以特地去看了官方文档进行学习。
+                    由于发布上线需要相关资质，所以并未发布上线，
                 </p>
             </li>
             <li>
@@ -350,13 +313,9 @@
                 <p>
                     这是一个使用python开发的程序，通过telegram官方提供的api,以及python的多个第三方库实现，全程独自完成。
                 </p>
-
                 <p>该机器人可以自动爬取关键数据定时发布更新运营报表。</p>
                 <p> 管理人员可通过指令对其后台页面进行用户信息查看，修改等一些列操作。</p>
-                <p> 自动对账，并且填写excel表格。</p>
-                <p> 对web端重复的劳动都可通过机器人关键指令完成。</p>
-                <p> 发现后台异常，发送相关管理人员</p>
-
+                <p> 自动填写excel表格以及对web端重复的劳动都可通过机器人关键指令完成，发现后台异常，发送相关管理人员</p>
             </li>
         </ol>
     </section>
@@ -366,9 +325,13 @@
         <h2>技能</h2>
         <div class="wrapper">
             <ul>
-                <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
-                <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Redux 等</li>
-                <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+                <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括
+                    <strong>VueCli</strong>/ <strong>VueRouter</strong>/ <strong>Vuex</strong> 等
+                </li>
+                <li>熟练掌握 React全家桶的使用，包括
+                    <strong>create-react-app</strong>/ <strong>ReactRouter</strong> /<strong>Redux</strong>>等
+                </li>
+                <li>熟悉 ES6，包括 let 、 Promise 、 await 、 析构赋值</li>
                 <li>了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
                 <li>了解 <strong>Webpack 的配置和优化</strong></li>
                 <li>有python脚本开发经验，对<strong>web自动化</strong>/<strong>操作excel</strong>相关的库也有所了解</li>
@@ -382,8 +345,7 @@
     <section class="openSource">
         <h2>开源项目</h2>
         <ul>
-
-            <li class="page2">
+            <li>
                 <header>
                     <h3>会动的皮卡丘</h3>
                     <span>
@@ -391,7 +353,7 @@
               <a href="https://aslan-alt.github.io/Pikachu/index.html">项目预览</a>
             </span>
                 </header>
-                <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
+                <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个作品</p>
             </li>
         </ul>
     </section>
@@ -408,15 +370,14 @@
                 </header>
                 <ul>
                     <li>
-                        负责后台系统页面的日常维护  <strong>Rails</strong> 和前端开发工作
+                        负责后台系统页面的日常维护和前端开发工作
                     </li>
                     <li>
-                        第一年只写写简单的爬虫脚本<strong>负责开发一些辅助工具</strong>
+                        负责爬虫脚本和辅助工具的日常开发
                     </li>
                     <li>
-                        期间自学前端，成功转岗，2020年负责日常页面的开发与维护，由于疫情期间并无太大业务变动，故无新的项目案例。
+                        自学前端，成功转岗，2020年参与前端日常页面的开发与维护，由于疫情期间并无太大业务变动，故无新的项目案例。
                         期间自主解决后台页面样式问题多处，以及主动修改可能存在安全隐患的代码。
-
                     </li>
                 </ul>
             </li>
@@ -426,7 +387,7 @@
     <section class="others">
         <h2>其他链接</h2>
         <ul>
-            <li><a href="https://juejin.im/user/2242659452457454/posts">我的博客</a>，目前已有 48 篇技术文章</li>
+            <li><a href="https://juejin.im/user/2242659452457454/posts">我的博客</a></li>
             <li><a href="https://github.com/aslan-alt">我的 GitHub</a></li>
         </ul>
     </section>
@@ -440,7 +401,6 @@
     </section>
 
 </article>
-<script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
 <script src="/main.1f19ae8e.js"></script>
 </body>
 
